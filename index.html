@@ -169,6 +169,7 @@
                 <a href="#" onclick="showPage('home')" class="nav-link text-sm font-medium" id="link-home">Home</a>
                 <a href="#" onclick="showPage('about')" class="nav-link text-sm font-medium" id="link-about">About</a>
                 <a href="#" onclick="showPage('projects')" class="nav-link text-sm font-medium" id="link-projects">Projects</a>
+                <a href="#" onclick="showPage('blog')" class="nav-link text-sm font-medium" id="link-blog">Blog</a>
                 <a href="#" onclick="showPage('experiences')" class="nav-link text-sm font-medium" id="link-experiences">Experiences</a>
                 <a href="#" onclick="showPage('contact')" class="nav-link text-sm font-medium" id="link-contact">Contact</a>
             </div>
@@ -346,6 +347,35 @@
             </div>
         </section>
 
+        <!-- PAGE: BLOG -->
+        <section id="page-experiences" class="page-content hidden space-y-16 animate-fade-in">
+            <div class="text-center space-y-4">
+                <h2 class="text-4xl md:text-5xl font-bold">I'm Share <span class="text-blue-400">Insights</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">I share insights in the form of ideas about technology/gadgets, videography, AI, personal growth, marketing, and other educational topics.</p>
+            </div>
+
+            <div id="blog-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog #1 -->
+                <article class="card-glass rounded-3xl overflow-hidden group">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="assets/1981 digital by unsplash.webp" alt="Blog #1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute top-4 left-4">
+                            <span class="px-3 py-1 bg-blue-600/80 backdrop-blur-md rounded-full text-[10px] font-bold uppercase tracking-wider">Videography</span>
+                        </div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div class="flex items-center gap-3 text-[10px] text-gray-500 font-medium">
+                            <span><i class="fa-regular fa-calendar-days mr-1"></i> 28 Jan 2026</span>
+                            <span><i class="fa-regular fa-clock mr-1"></i> 3 Menit dibaca</span>
+                        </div>
+                        <h3 class="text-xl font-bold group-hover:text-blue-400 transition-colors leading-tight">Rekomendasi 5 Channel Youtube untuk Belajar Editing Video</h3>
+                        <p class="text-gray-400 text-sm line-clamp-2">Skill editing video hingga kini semakin berkembang dan dibutuhkan oleh industri...</p>
+                        <a href="https://www.goodnewsfromindonesia.id/2026/01/28/5-channel-youtube-terbaik-untuk-belajar-editing-video" class="inline-flex items-center gap-2 text-sm font-bold text-green-400 hover:gap-3 transition-all">
+                            Read More <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </article>
+                
         <!-- PAGE: EXPERIENCES -->
         <section id="page-experiences" class="page-content hidden space-y-16 animate-fade-in">
             <div class="grid lg:grid-cols-3 gap-12">
@@ -736,6 +766,7 @@
     </script>
 </body>
 </html>
+
 
 
 
